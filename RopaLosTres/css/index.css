@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  font-family: sans-serif;
+  text-decoration: none;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+/*Encabezado*/
+
+header {
+  justify-content: space-between;
+  display: flex;
+  box-shadow: 0px 0.5px 12px 0px black;
+}
+nav a {
+  display: inline-block;
+}
+.titulo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: black;
+  font-size: 100%;
+}
+.titulo h1 {
+  font-size: 200%;
+}
+.acento {
+  color: yellow;
+  -webkit-text-stroke: 0.3px #ff6600;
+}
+.acento2 {
+  color: gray;
+  -webkit-text-stroke: 0.3px black;
+}
+.acento2:hover{
+  color: yellow;
+  -webkit-text-stroke: 0.3px #ff6600;
+  transition: 1s ease;
+}
+header nav a {
+  padding-right: 40px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 150%;
+  color: gray;
+  transition: 1s ease;
+}
+
+header nav a:hover {
+  color: yellow;
+  transition: 1s ease;
+}
+header nav a:active {
+  color: black;
+  transition: 1s ease;
+}
+.agruparEncabezado{
+  display: inline-flex;
+}
+/* Cuerpo */
+img {
+  max-width: 400%;
+  border-radius: 5px 5px 5px 8px;
+}
+.agrupar{
+  display: block;
+}
+.seccion{
+  display: flex;
+}
+.seccion2{
+  display: flex;
+  margin-top: 5%;
+}
+
+.menuImagen {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 2%;
+  padding-left: 8%;
+  padding-bottom: 2%;
+  float: left;
+}
+p{
+  color: black;
+}
+.parrafoInicio {
+  text-decoration: none;
+  font-size: 400%;
+  padding-top: 12%;
+  padding-left: 5%;
+  text-align: center;
+  
+}
+.hombresImagen{
+  width: 90%;
+  padding-top: 2%;
+  margin-top: 4%;
+  margin-left: 20%;
+  margin-bottom: 15%;
+  transition: 1s ease;
+  border-radius: 5px 5px 5px 5px;
+}
+.hombresImagen:hover{
+  box-shadow: 0px 1px 25px 0px gray;
+}
+.hombresImagen:active{
+  box-shadow: 0px 0px 0px 0px;
+}
+
+.mujeresImagen{
+  width: 80%;
+  margin-top: 5%;
+  margin-left: 8%;
+  margin-bottom: 15%;
+  transition: 1s ease;
+  border-radius: 5px 5px 5px 5px;
+}
+.mujeresImagen:hover{
+  box-shadow: 0px 1px 25px 0px gray;
+}
+.mujeresImagen:active{
+  box-shadow: 0px 0px 0px 0px;
+}
+/*Pie */
+.pie {
+  text-align: center;
+  background-color: white;
+  color: black;
+  clear: both;
+  margin-top: 3%;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  font-family: verdana;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0px 0px 10px 0px;
+}

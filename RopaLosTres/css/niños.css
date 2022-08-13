@@ -1,0 +1,132 @@
+* {
+  margin: 0px;
+  padding: 0%;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+/*Encabezado*/
+
+.titulo img{
+  height: 50px;
+  margin-left: 55px;
+}
+
+  .izquierda{
+      margin-right:60%;
+}
+
+header {
+  justify-content: space-between;
+  display: flex;
+  box-shadow: 0px 0.5px 12px 0px black;
+}
+nav a {
+  display: inline-block;
+}
+.titulo {
+  margin: 0;
+  padding: 25px 30px;
+  font-weight: bold;
+  color: black;
+  font-size: 100%;
+}
+.titulo h1 {
+  font-size: 200%;
+}
+.acento {
+  color: yellow;
+  -webkit-text-stroke: 0.3px #ff6600;
+}
+.acento2 {
+  color: gray;
+  -webkit-text-stroke: 0.3px black;
+}
+.acento2:hover {
+  color: yellow;
+  -webkit-text-stroke: 0.3px #ff6600;
+  transition: 1s ease;
+}
+header nav a {
+  padding-right: 40px;
+  padding-bottom: 10px;
+  text-decoration: none;
+  font-size: 150%;
+  color: gray;
+  transition: 1s ease;
+}
+
+header nav a:hover {
+  color: yellow;
+  transition: 1s ease;
+}
+header nav a:active {
+  color: black;
+  transition: 1s ease;
+}
+.agruparEncabezado {
+  display: inline-flex;
+}
+
+/*Cuerpo*/
+
+/*Cartas*/
+img {
+  border-radius: 5px 5px 0 0;
+}
+.card {
+  box-shadow: 0px 4px 12px 0px gray;
+  margin: 100px;
+  margin-top: 80px;
+  margin-left: 60px;
+  margin-bottom: 20px;
+  width: 60%;
+  border-radius: 0.5rem;
+  background-color: white;
+  transition: 0.5s ease;
+}
+.card:hover {
+  box-shadow: 0px 4px 12px 0px black;
+  width: 62%;
+  transition: 1s ease;
+}
+.card:active {
+  box-shadow: 0px 4px 12px 0px gray;
+  width: 60%;
+  transition: 0.1s ease;
+}
+
+.container {
+  padding: 2px 16px;
+  background-color: gray;
+  font-weight: lighter;
+  border-radius: 0 0 0.4rem 0.4rem;
+  text-align: center;
+  font-size: 100%;
+  border-top: 2px solid black;
+  color: white;
+}
+.container b {
+  font-style: unset;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 100%;
+}
+
+/*Pie */
+.pie {
+    text-align: center;
+    background-color: white;
+    color: black;
+    clear: both;
+    margin-top: 3%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px 0px;
+  }

@@ -1,0 +1,113 @@
+* {margin: 0px;
+    padding: 0%;
+    font-family: Helvetica;
+}
+
+.titulo {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+.titulo img{
+    height: 60px;
+    margin-left: 55px;
+}
+
+.lado{
+    margin-right: 63%;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header nav a{
+    padding-right: 40px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    font-weight: bold;
+    transition:  0.4s ease;
+}
+
+header nav a:hover{
+    padding-right: 40px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(213, 250, 250);
+    font-weight: bold;
+    transition:  0.4s ease;
+}
+
+body {
+    background-color: rgb(33, 181, 181);
+    color: white;
+    font-size: 15px;
+}
+
+.tabla{
+     width: 75%;
+    margin-top: 0px;
+    padding-bottom: 100px;
+}
+
+img{
+    border-radius: 5px 5px 0 0;
+}
+
+.card {
+    box-shadow: 0 10px 12px 10px rgba(0, 0, 0, 0.2);
+    margin: 100px;
+    margin-top: 80px;
+    margin-left: 60px;
+    margin-bottom: 20px;
+    width: 60%;
+    border-radius: 0.5rem;
+    border: 1px solid black;
+    background-color: white;
+    transition: 0.5s ease
+    
+}
+
+.card:hover {
+    /*box-shadow: 0 8px 16px 0 rgba(255, 255, 255, 0.2);*/
+    width: 65%;
+    -webkit-text-stroke: 0.3px blue;
+    transition: 1s ease;
+    
+}
+
+.card:active{
+    /*box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2);*/
+    width: 60%;
+    transition: 0.5s ease;
+}
+
+.container {
+    padding: 2px 16px;
+    background-color: rgba(85, 74, 74, 0.904);
+    font-weight: lighter;
+    border-radius: 0 0 0.4rem 0.4rem;
+    text-align: center;
+    font-size: 100%;
+    border-top: 2px solid black;
+}
+
+.pie {
+    text-align: center;
+    background-color: white;
+    color: rgb(6, 133, 133);
+    clear: both;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-family: verdana;
+    font-size: 20px;
+    font-weight: bold;
+  }
